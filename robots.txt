@@ -1,3 +1,28 @@
 User-agent: *
 Allow: /
-Sitemap: https://coolfixuganda.com/sitemap.xml
+Allow: /services
+Allow: /about
+Allow: /brands
+Allow: /contact
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://coolfixuganda.vercel.app/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Search engine specific
+User-agent: Googlebot
+Allow: /
+Allow: /services
+Allow: /about
+Allow: /brands
+Allow: /contact
+
+User-agent: Bingbot
+Allow: /
+Allow: /services
+Allow: /about
+Allow: /brands
+Allow: /contact
